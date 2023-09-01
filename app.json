@@ -74,7 +74,7 @@
         "required": true
       }
     },
-    "buildpacks": [
+     "buildpacks": [
           {
               "url": "heroku/python"
           },
@@ -84,6 +84,6 @@
           {
               "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
           }
-      },
-      "stack": "container"
-}
+      ],
+     "stack": "container"
+  }
